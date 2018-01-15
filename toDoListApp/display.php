@@ -108,6 +108,7 @@ class TaskList {
 class User {
 	public $userId = 0;
 	public $username = "";
+	public $password = "";
 	public $lists;
 
 }
