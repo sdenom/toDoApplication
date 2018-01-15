@@ -1,10 +1,10 @@
 <!DOCTYPE html>
+<style>
+	input {
+    width: 50%;
+}
+</style>
 
-<?php
-
-	$userId = 1;
-	
-?>
 
 <html lang="en">
 
@@ -13,8 +13,7 @@
 <body>
 <form action = "newListPost.php" method="post">
 
-<input type = "text" value="Enter title" name="listTitle">
-<input type = "hidden" value="<?php echo $userId ?>" name="userId">
+<input type = "text" required placeholder="Enter list title" name="listTitle">
 <input type = "submit" value = "Submit">
 
 </form>

@@ -5,9 +5,11 @@
     width: 50%;
 }
 </style>
-<title>Login</title> </head>
+<head>
+<meta charset="utf-8">
+<title>login</title>
+</head>
 <body>
-
 <form action = "login.php" method="post">
 <div class="form-group">
 
